@@ -1,13 +1,11 @@
-import TestComponent from './TestComponent.tsx'
+import PokemonListComponent from './PokemonListComponent.tsx'
 
 function App() {
   return (
     <>
-    <div className='App'>
-      <TestComponent 
-        name= "Jakub"
-        age = {29} />
-    </div>    
+      <div className='App'>
+        <PokemonListComponent />
+      </div>
     </>
   )
 }
