@@ -8,7 +8,7 @@ const Button = styled.button`
   color: palevioletred;
 `;
 
-function PokemonComponent({pokemonName} : {pokemonName: string}) {
+function PokemonComponent({pokemonName, pokemonIndex} : {pokemonName: string; pokemonIndex: number}) {
     return (
         <>
             <li>{pokemonName}</li>
